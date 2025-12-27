@@ -1,0 +1,9 @@
+{
+  "name": "Cronos - Smart Routine Timer",
+  "description": "A professional block-based timer for HIIT, Pomodoro, and study routines with robust timestamp tracking.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
