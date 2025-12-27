@@ -101,10 +101,12 @@
 
 <body>
   <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/sw.js')
+        const basePath = '/Cronos_Smart_Routine_Studio/';
+        navigator.serviceWorker.register(basePath + 'sw.js')
           .then(reg => console.log('SW registered'))
           .catch(err => console.log('SW registration failed', err));
       });
