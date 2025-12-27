@@ -1,0 +1,23 @@
+{
+    "name": "Cronos Smart Routine Studio",
+    "short_name": "Cronos",
+    "description": "Temporizador inteligente para rutinas de trabajo, descanso y preparación",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#111418",
+    "theme_color": "#0d6cf2",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "/icons/icon.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any"
+        }
+    ],
+    "categories": [
+        "productivity",
+        "utilities"
+    ],
+    "lang": "es"
+}
